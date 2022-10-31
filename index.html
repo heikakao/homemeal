@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HomeMeal is an AI-powered healthy food subscription 365 days peryear." />
+
+    <link rel="icon" href="images/Logo - Copy.png"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>HomeMeal &mdash; Healthy Food Everyday</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-container">
+        <a href="#">
+          <img class="logo" src="images/Logo.png" alt="HomeMeal Logo" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#how">How it works</a></li>
+            <li><a class="main-nav-link" href="#meals">Sample</a></li>
+            <li><a class="main-nav-link" href="#testimony">Testimonial</a></li>
+            <li><a class="main-nav-link" href="#price">Pricing</a></li>
+            <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            A healthy lifestyle has never been easier with HomeMeal
+          </h1>
+          <p class="hero-description">
+            Tidak perlu takut makan sehat! HomeMeal dibuat khusus mengikuti
+            selera pribadi serta kebutuhan gizi anda selama setahun penuh.
+          </p>
+          <a href="#cta" class="btn btn--full margin-right-sm"
+            >Mulai Makan Sehat</a
+          >
+          <a href="#how" class="btn btn--outline">Lebih Detail &darr;</a>
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img src="images/customer-1.jpg" alt="Customer Photo" />
+              <img src="images/customer-2.jpg" alt="Customer Photo" />
+              <img src="images/customer-3.jpg" alt="Customer Photo" />
+              <img src="images/customer-4.jpg" alt="Customer Photo" />
+              <img src="images/customer-5.jpg" alt="Customer Photo" />
+              <img src="images/customer-6.jpg" alt="Customer Photo" />
+            </div>
+            <p class="delivered-text">
+              Kami sudah mengirim <span>100.000+</span> makanan tahun lalu!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Featured In</h2>
+          <div class="logos">
+            <img
+              src="images/logos/business-insider.png"
+              alt="Business-insider"
+            />
+            <img src="images/logos/forbes.png" alt="Forbes" />
+            <img src="images/logos/techcrunch.png" alt="Techcrunch" />
+            <img
+              src="images/logos/the-new-york-times.png"
+              alt="The New York Times"
+            />
+            <img src="images/logos/usa-today.png" alt="USA today" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container flex-horizontal">
+          <div class="hor-line hor-line--small"></div>
+          <span class="subheading">How It Works</span>
+        </div>
+        <div class="container">
+          <h2 class="heading-secondary">
+            Mengerti cara kerja HomeMeal dalam 3 langkah singkat
+          </h2>
+        </div>
+        <div class="container grid">
+          <div class="how-text-box flex-horizontal">
+            <div class="how-number">01</div>
+            <div class="how-box">
+              <h3 class="heading-tersier">
+                Beritahu kami apa yang kalian suka dan tidak suka
+              </h3>
+              <p class="how-description">
+                Kami akan membuat rencana menu makan yang bergizi.
+              </p>
+            </div>
+          </div>
+          <div class="hor-line"></div>
+          <div class="how-text-box flex-horizontal">
+            <div class="how-number">02</div>
+            <div class="how-box">
+              <h3 class="heading-tersier">
+                Setujui rencana menu makan yang telah kami buat
+              </h3>
+              <p class="how-description">
+                Pada tiap minggunya, program kami akan memberikan menu makan
+                anda. Anda dapat mengubah bahan, menu makanan yang tidak anda
+                sukai, atau bahkan menambahkan resep anda sendiri.
+              </p>
+            </div>
+          </div>
+          <div class="hor-line"></div>
+          <div class="how-text-box flex-horizontal">
+            <div class="how-number">03</div>
+            <div class="how-box">
+              <h3 class="heading-tersier">
+                Terima makanan pada waktu yang telah disetujui
+              </h3>
+              <p class="how-description">
+                Anda dapat mengubah waktu pengiriman setiap saat.
+              </p>
+            </div>
+          </div>
+          <div class="hor-line"></div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container flex-horizontal">
+          <div class="hor-line hor-line--small"></div>
+          <span class="subheading">Sample</span>
+        </div>
+        <div class="container">
+          <h2 class="heading-secondary">
+            Beberapa contoh menu makan di HomeMeal
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/meals/meal-1.jpg"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>650 </strong>Kalori</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="nutrition-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> Rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="img/meals/meal-2.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>400 </strong>Kalori</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="nutrition-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> Rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="diets">
+            <h3 class="heading-tersier">Berbagai macam diet:</h3>
+            <ul class="lists">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Vegetarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Vegan</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Pescatarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Gluten-Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Lactose-Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Keto</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Paleo</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Low FODMAP</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon>
+                <span>Kid-Friendly</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container all-recipes">
+          <a href="#" class="link">Lihat Resep Lainnya &rarr;</a>
+        </div>
+      </section>
+      <section class="section-testimonials" id="testimony">
+        <div class="testimonials-container">
+          <div class="flex-horizontal">
+            <div class="hor-line hor-line--small"></div>
+            <span class="subheading">Testimonial</span>
+          </div>
+          <h2 class="heading-secondary">Apa kata mereka tentang HomeMeal</h2>
+        </div>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of Customer Dave Bryson"
+              src="img/customers/dave.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to order manually! It feels truly magical.
+            </blockquote>
+            <p class="testimonial-name">&mdash; Dave Bryson</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of Customer Ben Hadley"
+              src="img/customers/ben.jpg"
+            />
+            <blockquote class="testimonial-text">
+              HomeMeal chooses the right meals for me every time. It's amazing
+              not to worry about food anymore!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Ben Hadley</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of Customer Steve Miller"
+              src="img/customers/steve.jpg"
+            />
+            <blockquote class="testimonial-text">
+              HomeMeal is a life saver! I just started a company, so there's no
+              time for cooking. I couldn't live without my daily meals now!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Steve Miller</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of Customer Hannah Smith"
+              src="img/customers/hannah.jpg"
+            />
+            <blockquote class="testimonial-text">
+              I got HomeMeal for the whole family, and it frees up so much time!
+              Plus, everything is organic and vegan and without plastic.
+            </blockquote>
+            <p class="testimonial-name">&mdash; Hannah Smith</p>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-gallery">
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-1.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-2.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-3.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-4.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-5.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-6.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-7.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-8.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-9.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-10.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-11.jpg" alt="Delicacy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-12.jpg" alt="Delicacy" />
+        </figure>
+      </section>
+
+      <section class="section-pricing" id="price">
+        <div class="container flex-horizontal">
+          <div class="hor-line hor-line--small"></div>
+          <span class="subheading">Pricing</span>
+        </div>
+        <div class="container">
+          <h2 class="heading-secondary">Makan sehat dengan harga terjangkau</h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>Rp</span>450.000,-</p>
+              <p class="plan-text">
+                per bulan, artinya Rp15.000,- per makanan!
+              </p>
+            </header>
+            <ul class="lists">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 makanan perhari</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Pesan dari jam 11.00 sampai 21.00</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Bebas biaya delivery</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                <span>Tanpa akses ke resep terbaru</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Mulai Berlangganan</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price"><span>Rp</span>700.000,-</p>
+              <p class="plan-text">
+                per bulan, artinya Rp12.000,- per makanan!
+              </p>
+            </header>
+            <ul class="lists">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>2 makanan</strong> perhari</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Pesan <strong>24/7</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Bebas biaya delivery</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Akses ke semua resep terbaru</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Mulai Berlangganan</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Harga sudah termasuk PPn. Anda dapat berhenti kapan saja. Kedua
+            paket di atas meliputi:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">Segar dan Organik</p>
+            <p class="feature-text">
+              makanan kami hanya menggunakan bahan-bahan yang segar dan organik,
+              sehingga kebersihannya terjamin
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="earth-outline"></ion-icon>
+            <p class="feature-title">Ramah Lingkungan</p>
+            <p class="feature-text">
+              Partner kami hanya menggunakan wadah ramah lingkungan untuk
+              membungkus pesanan anda
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Tidak Memasak Lagi</p>
+            <p class="feature-text">
+              Kami menyediakan makanan 365 hari pertahun, termasuk hari libur
+              nasional
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Berhenti Setiap Saat</p>
+            <p class="feature-text">
+              Jika anda sedang berpergian, anda dapat memberhentikan sejenak
+              layanan kami
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Makanan pertama anda gratis!</h2>
+              <p class="cta-text">
+                Makanan sehat dan enak menunggumu. Mulai makan sehat hari ini.
+                Anda dapat berhenti kapan saja.
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Nama Lengkap</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Alamat Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Darimana anda mendengar HomeMeal?</label>
+                  <select id="select-where"
+                  name="select-where" required>
+                    <option value="">Pilih salah satu</option>
+                    <option value="friends">Teman dan Keluarga</option>
+                    <option value="youtube">YouTube Video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ads">Iklan</option>
+                    <option value="other">Lainnya</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign Up Now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman Enjoying Food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <!-- <a href="#" class="footer-logo">
+            <img class="logo" src="images/Logo.png" alt="HomeMeal Logo" />
+          </a> -->
+
+          <ul class="social-links">
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+          </ul>
+
+          <p class="copyright">Copyright &copy;<span class="year">2027</span> by HomeMeal, Inc. All rights reserved.</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Jakarta Utara
+            </p>
+            <p>
+              <a class="footer-link" href="tel:123-456-7890">123-456-7890</a>
+              <br />
+              <a class="footer-link" href="mailto:hello@homemeal.com">hello@homemeal.com</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create Account</a></li>
+            <li><a class="footer-link" href="#">Sign In</a></li>
+            <li><a class="footer-link" href="#">iOs App</a></li>
+            <li><a class="footer-link" href="#">Android App</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About HomeMeal</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking Partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe Directory</a></li>
+            <li><a class="footer-link" href="#">Help Center</a></li>
+            <li><a class="footer-link" href="#">Privacy & Terms</a></li>
+          </ul>
+        </nav>
+    </footer>
+  </body>
+</html>
